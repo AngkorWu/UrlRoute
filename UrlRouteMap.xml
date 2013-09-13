@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<Routes>
+    <Route Name="PersonRoute">
+        <VirtualPath>Person</VirtualPath>
+        <PhysicalPath>~/Pages/Home/PersonHome.aspx</PhysicalPath>
+        <Parameters>
+            <Parameter DefaultValue="Angkor">userName</Parameter>
+            <Parameter DefaultValue="24">age</Parameter>
+        </Parameters>
+    </Route>
+    <Route Name="CompanyRoute">
+        <VirtualPath>Company</VirtualPath>
+        <PhysicalPath>~/Pages/Company/CompanyHome.aspx</PhysicalPath>
+        <Parameters>
+            <Parameter DefaultValue="RRD">companyName</Parameter>
+        </Parameters>
+    </Route>
+</Routes>
